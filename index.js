@@ -234,7 +234,7 @@ function selectAnotherTeamMember() {
 }
 
 function callGenerateHTML() {
-    fs.writeFile('./dist/team.html',generateHTML(companyName, managerInfo, teamInfo),  err => {
+    fs.writeFile('./dist/html/team.html',generateHTML(companyName, managerInfo, teamInfo),  err => {
         if (err) {
           console.error(err);
         }

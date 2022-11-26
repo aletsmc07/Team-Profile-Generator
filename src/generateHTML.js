@@ -56,7 +56,8 @@ function generateHTML(companyName ,managerInfo, teamInfo) {
         rel="stylesheet"
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         />
-        <link rel="stylesheet" href="style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../src/dist/css/style.css"/>
     </head>
     <body>
     <div class="head">
