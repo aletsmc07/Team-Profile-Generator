@@ -1,0 +1,33 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "This script creates an HTML for the employees of a team",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aletsmc07/Team-Profile-Generator.git"
+  },
+  "keywords": [
+    "Profile",
+    "Generator"
+  ],
+  "author": "Alejandro Mince",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aletsmc07/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/aletsmc07/Team-Profile-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0",
+    "node": "^18.9.0"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}

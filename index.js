@@ -154,7 +154,7 @@ function hireEngineer() {
     }])
     .then(answers => {
         let engineer = {typeofEmployee: "Engineer", engineerName: answers.engineerName, engineerID: answers.engineerID, engineerEmail: answers.engineerEmail, engineerGithub: answers.engineerGithub}
-        teamInfo.push(engineer)
+        TeamInfo.push(engineer)
         selectAnotherTeamMember();
     })
 }
@@ -162,7 +162,7 @@ function hireEngineer() {
 function hireIntern() {
     inquirer.prompt([{
         type: 'input',
-        message: "What's the engineer name?",
+        message: "What's the Intern name?",
         name: 'internName',
         validate: internName => {
             if (internName) {
@@ -210,7 +210,7 @@ function hireIntern() {
     }])
     .then(answers => {
         let intern = {typeofEmployee: "Intern", internName: answers.internName, internID: answers.internID, internEmail: answers.internEmail, school: answers.internSchool}
-        teamInfo.push(intern)
+        TeamInfo.push(intern)
         selectAnotherTeamMember();
     })
 }
@@ -224,7 +224,7 @@ function selectAnotherTeamMember() {
     })
     .then(answers => {
         if (answers.employeeHire === 'Yes') {
-            teammateNum += 1
+            teammateInfo += 1
             selectTeamMember();
         }
         else{
@@ -234,7 +234,7 @@ function selectAnotherTeamMember() {
 }
 
 function callGenerateHTML() {
-    fs.writeFile('./dist/html/team.html',generateHTML(companyName, managerInfo, teamInfo),  err => {
+    fs.writeFile('./dist/html/team.html',generateHTML(companyName, managerInfo, TeamInfo),  err => {
         if (err) {
           console.error(err);
         }
