@@ -60,6 +60,13 @@ Please, install Node JS (link of the specified in Tech section) before run the c
 
 [Content](#Content)
 
+## Links
+
+- [Github repository](https://github.com/aletsmc07/Team-Profile-Generator)
+- No deployed app link, run it in terminal.
+
+[Content](#Content)
+
 ## Screenshots
 
 
