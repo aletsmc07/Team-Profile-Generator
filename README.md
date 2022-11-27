@@ -11,6 +11,7 @@ This app generates an HTML file that gives you the resume of your team (name, ID
 - [Features](#Features)
 - [Tech](#Tech)
 - [Installation](#Installation)
+- [Links](#Links)
 - [Screenshots](#Screenshots)
 - [License](#License)
 ## Features
