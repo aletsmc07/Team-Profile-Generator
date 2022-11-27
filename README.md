@@ -69,7 +69,24 @@ Please, install Node JS (link of the specified in Tech section) before run the c
 [Content](#Content)
 
 ## Screenshots
+- Running app
+![image](https://user-images.githubusercontent.com/107447818/204115000-903cc8f7-746c-40eb-a965-ee5defebf93d.png)
 
+- After filling the Manager info, you can choose what kind of employee to hire
+![image](https://user-images.githubusercontent.com/107447818/204115041-ec6d5c51-e3fc-42f9-96ee-efbefb803beb.png)
+
+- Completing engineer info:
+![image](https://user-images.githubusercontent.com/107447818/204115074-d725799e-db4c-4688-8e10-980fffef6ccd.png)
+
+- Completing intern info:
+![image](https://user-images.githubusercontent.com/107447818/204115109-d427794b-fbbb-4e2a-9010-10dd0d026d23.png)
+
+- HTML file generated:
+![image](https://user-images.githubusercontent.com/107447818/204115135-0a7a431a-24ed-4f09-94b8-dba9f2379e4a.png)
+
+- HTML file:
+![image](https://user-images.githubusercontent.com/107447818/204115148-ee8d5367-6819-4586-bc4e-e1dccad1ea75.png)
+![image](https://user-images.githubusercontent.com/107447818/204115154-376a43b8-1d27-4749-adc5-85e29a54a42a.png)
 
 [Content](#Content)
 
